@@ -1,0 +1,15 @@
+{
+    "name": "just-bases/php-obs-dev-base",
+    "description": "PHP Observability Dev/CI Metapackage",
+    "type": "metapackage",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "just-bases/php-obs-base": "^1.0",
+        "open-telemetry/sdk": "^1.9",
+        "open-telemetry/exporter-otlp": "^1.1",
+        "open-telemetry/transport-grpc": "^1.1",
+        "monolog/monolog": "^3.7"
+    }
+}
